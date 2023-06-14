@@ -57,9 +57,25 @@
 		C2E41B8D2A399A7B00636547 /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				C2E41B962A399A9700636547 /* Programmers */,
+				C2E41B952A399A9000636547 /* BOJ */,
 				C2E41B8E2A399A7B00636547 /* main.swift */,
 			);
 			path = CodingTest;
+			sourceTree = "<group>";
+		};
+		C2E41B952A399A9000636547 /* BOJ */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BOJ;
+			sourceTree = "<group>";
+		};
+		C2E41B962A399A9700636547 /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Programmers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
