@@ -1,0 +1,12 @@
+//
+//  문자열 출력하기.swift
+//  CodingTest
+//
+//  Created by 박지은 on 2023/06/14.
+//
+
+import Foundation
+
+let s1 = readLine()!
+print(s1)
+
