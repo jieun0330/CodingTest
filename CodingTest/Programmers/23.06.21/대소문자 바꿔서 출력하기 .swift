@@ -7,17 +7,16 @@
 
 import Foundation
 
-func swapCases(_ str: String) -> String {
-    var result = ""
-    for c in str {
-        let s = String(c)
-        let lo = s.lowercased()
-        let up = s.uppercased()
-        result += (s == lo) ? up : lo
+let s1 = readLine()!
+
+var result = ""
+
+for char in s1{
+    if String(char) == char.uppercased() {
+        result += char.lowercased()
+    } else{
+        result += char.uppercased()
     }
-    return result
 }
 
-let input = readLine() ?? ""
-
-print(swapCases(input))
+print(result)
