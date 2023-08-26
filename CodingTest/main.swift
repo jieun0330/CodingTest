@@ -7,5 +7,3 @@
 
 import Foundation
 
-print("test3")
-

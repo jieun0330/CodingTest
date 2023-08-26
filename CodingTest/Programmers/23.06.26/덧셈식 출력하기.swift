@@ -5,9 +5,10 @@
 //  Created by 박지은 on 2023/06/26.
 //
 
+
 import Foundation
 
-let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
-let (a, b) = (n[0], n[1])
+let inp = readLine()!.components(separatedBy: [" "]).map { $0 }
+let (s1, s2) = (inp[0], inp[1])
 
-print("\(a) + \(b) = \(a+b)")
+print("\(s1+s2)")
